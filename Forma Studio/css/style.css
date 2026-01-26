@@ -1,0 +1,10 @@
+.header {
+    /*background-image: url(../images/header-bg.jpg);*/
+    background-image: image-set(
+    url('../images/header-bg.avif') type('image/avif'),
+    url('../images/header-bg.webp') type('image/webp'),
+    url('../images/header-bg.jpg') type('image/jpeg')
+    );
+}
+
+/*25:31*/
